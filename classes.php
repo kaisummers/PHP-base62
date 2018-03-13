@@ -1,11 +1,11 @@
 <?php
 /*
- * PHP base62
+ * PHP-base62
  */
 class base62
 {
   	// Base62 Encode
-	public function encode($d)
+	public static function encode($d)
 	{
 		$l = strlen($d);
 		for ($i = 0; $i < $l; $i += 8) 
@@ -16,7 +16,7 @@ class base62
 	 	return implode($o);
   	}
   	// Base62 Decode
-  	public function decode($d)
+  	public static function decode($d)
   	{
 		$l = strlen($d);
 		for ($i = 0; $i < $l; $i += 11) 
