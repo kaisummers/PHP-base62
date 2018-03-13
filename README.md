@@ -7,7 +7,7 @@ The PHP base62 class encodes and decodes strings into base62
 include("classes.php");
 
 
-// Create new Base62 object class
+// Create new base62 class object
 
 $base62 = new base62(); 
 
