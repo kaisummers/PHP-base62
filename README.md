@@ -1,8 +1,8 @@
-# PHP base62
-The PHP base62 class encodes and decodes strings into base62
+# PHP-base62
+The PHP-base62 class encodes and decodes strings into base62
 
 # Example Usage
-// Include class file containing PHP base62
+// Include class file containing PHP-base62
 
 include("classes.php");
 
